@@ -1,0 +1,156 @@
+/* This is the CSS file for the 'google-homepage' project */
+
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: arial,sans-serif;
+}
+
+/* Section for homepage banner */
+.banner{
+	position: absolute;
+	top: 0px;
+	height: 40px;
+	width: 100%;
+}
+
+#banner-container{
+	width:500px;
+	float:right;
+	height:40px;
+	top:0px;
+}
+
+.banner-links li{
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	margin: auto auto;
+	font-size: 14px;
+	float: right;
+	padding-right: 25px;
+	padding-top:5px;
+}
+
+#banner-text-links{
+	padding-top:5px;
+	height:20px;
+}
+.banner a{
+	color: #666;
+	font-style: none;
+}
+.banner a:hover{
+	color: #999;
+	font-style: none;
+}
+
+a:-webkit-any-link{
+	text-decoration: none;
+}
+
+/* Section for homepage google logo */
+.search-bar{
+	position:absolute;
+	top: 200px; 
+	width:100%;
+	text-align: center;
+}
+#google{
+	display: block;
+	clear:both;
+	width:400px;
+	margin: 0px auto;
+}
+
+/* Section for homepage search bar */
+.search-bar-query{
+	position: relative;
+	border: 1px solid #BABABA;
+	width: 600px;
+	height: 50px;
+	padding:0px auto;
+	margin: 0px auto;
+	top: 20px;
+}
+
+#microphone{
+	position:absolute;
+	padding-left:250px;
+}
+/* Section for homepage search buttons */
+div.search-buttons{
+	width: 100%;
+	height: 120px;
+	padding:0px auto;
+	margin: 0px auto;
+	top:115px;
+
+}
+#search-buttons{
+	position:relative;
+	width: 400px;
+	min-width: 400px;
+	height: 60px;
+	margin: 0px auto;
+	top:40px;
+
+}
+h3.search-buttons{
+
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	font: #757575;
+	border: 1px solid #e4e4e4;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	margin: 15px 5px 15px 15px;
+	padding-top:10px;
+	background: #f2f2f2;
+}
+
+/* Section for homepage footer */
+.footer{
+	bottom: 0;
+	height:40px;
+	position: absolute;
+	width:100%;
+	border-top: 1px solid #e4e4e4;
+	background: #f2f2f2;
+}
+
+.footer-links li{
+	float: right;
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	margin: 5px 15px;
+	padding-top: 5px;
+	font-size: 14px;
+}
+
+#footer-left-links{
+	float: left;
+	padding-left:15px;
+}
+#footer-right-links{
+	float: right;
+	padding-right:15px;
+}
+
+
+.footer a{
+	color: #666;
+	font-style: none;
+}
+.footer a:hover{
+	color: #999;
+	font-style: none;
+}
+
+a:-webkit-any-link{
+	text-decoration: none;
+}
